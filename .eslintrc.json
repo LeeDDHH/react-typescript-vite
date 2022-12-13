@@ -26,15 +26,27 @@
     "prettier"
   ],
   "rules": {
+    // React' must be in scope when using JSX 対応
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    // Reactコンポーネントのpropsの型のバリデーションを無効化
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+    // https://github.com/Microsoft/TypeScript/issues/4833#issuecomment-271952808
     "react/prop-types": "off",
     "no-fallthrough": ["error", { "commentPattern": "break[\\s\\w]*omitted" }],
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     "semi": ["error", "never", { "beforeStatementContinuationChars": "never" }],
     "semi-spacing": ["error", { "after": true, "before": false }],
     "semi-style": ["error", "first"],
+    // 不要なセミコロンのエラー表示
     "no-extra-semi": "error",
+    // スペースとタブの混在のエラー表示
+    "no-mixed-spaces-and-tabs": "error",
+    // 2行以上空いている行のエラー表示
+    "no-multiple-empty-lines": "error",
+    // 意図しない開業のエラー表示
     "no-unexpected-multiline": "error",
     "no-unreachable": "error"
   }
