@@ -14,7 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["vitest/globals"] // node_modules/vitest/globalsを型定義として参照する
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -16,7 +17,13 @@ const build = {
 const server = { open: true }
 const plugins = [react()]
 
-const settings = { base, root, publicDir, build, server, plugins }
+// テスト設定
+const test = {
+  environment: 'jsdom', // テスト環境を指定
+  globals: true, // APIをグローバルに使う
+}
+
+const settings = { base, root, publicDir, build, server, plugins, test }
 
 // https://vitejs.dev/config/
 export default defineConfig(settings)
