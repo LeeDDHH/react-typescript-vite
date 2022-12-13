@@ -3,15 +3,15 @@
 - React、TypeScript、Vite 構成のサンプルリポジトリ
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Node.js-gray.svg?logo=node.js&style=flat-square">
-  <img src="https://img.shields.io/badge/-Yarn-gray.svg?logo=yarn&style=flat-square">
-  <img src="https://img.shields.io/badge/Vite-gray.svg?logo=vite&style=flat-square">
-  <img src="https://img.shields.io/badge/-React-gray.svg?logo=react&style=flat-square">
-  <img src="https://img.shields.io/badge/-Typescript-gray.svg?logo=typescript&style=flat-square">
-  <img src="https://img.shields.io/badge/-Prettier-gray.svg?logo=prettier&style=flat-square">
-  <img src="https://img.shields.io/badge/-Eslint-gray.svg?logo=eslint&style=flat-square">
-  <img src="https://img.shields.io/badge/Testing-Library-gray.svg?logo=testinglibrary&style=flat-square">
-  <img src="https://img.shields.io/badge/Vitest-gray.svg?logo=vitest&style=flat-square">
+  <img src="https://img.shields.io/badge/Node.js-18.12.0-blue?logo=node.js&style=flat-square">
+  <img src="https://img.shields.io/badge/Yarn-1.22.19-blue?logo=yarn&style=flat-square">
+  <img src="https://img.shields.io/badge/Vite-4.0.0-blue?logo=vite&style=flat-square">
+  <img src="https://img.shields.io/badge/React-18.2.0-blue?logo=react&style=flat-square">
+  <img src="https://img.shields.io/badge/Typescript-4.9.3-blue?logo=typescript&style=flat-square">
+  <img src="https://img.shields.io/badge/Prettier-2.8.1-blue?logo=prettier&style=flat-square">
+  <img src="https://img.shields.io/badge/Eslint-8.29.0-blue?logo=eslint&style=flat-square">
+  <img src="https://img.shields.io/badge/Testing--Library-13.4.0-blue?logo=testinglibrary&style=flat-square">
+  <img src="https://img.shields.io/badge/Vitest-0.25.8-blue?logo=vitest&style=flat-square">
 </p>
 
 ## 実行環境
@@ -22,7 +22,7 @@
 |          Yarn          |  1.22.19   |
 |          Vite          |   4.0.0    |
 |         React          |   18.2.0   |
-|       TypeScript       | typescript |
+|       TypeScript       |   4.9.3    |
 |        Prettier        |   2.8.1    |
 |         Eslint         |   8.29.0   |
 | @testing-library/react |   13.4.0   |
