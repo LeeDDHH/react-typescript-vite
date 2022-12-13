@@ -2,6 +2,7 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import type { UserConfig } from 'vitest/config'
 
 const base = './'
 // index.htmlをsrc配下においたことによる設定
@@ -22,9 +23,22 @@ const plugins = [react()]
 const test = {
   environment: 'jsdom', // node環境でDOMをシミュレートする
   globals: true, // APIをグローバルに使う
+  coverage: {
+    enabled: true, // カバレッジ収集を有効化
+    reportsDirectory: '../coverage',
+    reporters: ['text', 'json', 'html'],
+  },
 }
 
-const settings = { base, root, publicDir, build, server, plugins, test }
+const settings: UserConfig = {
+  base,
+  root,
+  publicDir,
+  build,
+  server,
+  plugins,
+  test,
+}
 
 // https://vitejs.dev/config/
 export default defineConfig(settings)

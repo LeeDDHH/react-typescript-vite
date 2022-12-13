@@ -27,6 +27,7 @@
 |         Eslint         |   8.29.0   |
 | @testing-library/react |   13.4.0   |
 |         Vitest         |   0.25.7   |
+|  @vitest/coverage-c8   |   0.25.8   |
 
 ## コマンド
 
