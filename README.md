@@ -1,5 +1,7 @@
 # react-typescript-vite
 
+- React、TypeScript、Vite 構成のサンプルリポジトリ
+
 <p align="center">
   <img src="https://img.shields.io/badge/-Node.js-gray.svg?logo=node.js&style=flat-square">
   <img src="https://img.shields.io/badge/-Yarn-gray.svg?logo=yarn&style=flat-square">
@@ -11,8 +13,6 @@
   <img src="https://img.shields.io/badge/Testing-Library-gray.svg?logo=testinglibrary&style=flat-square">
   <img src="https://img.shields.io/badge/Vitest-gray.svg?logo=vitest&style=flat-square">
 </p>
-
-- React、TypeScript、Vite 構成のサンプルリポジトリ
 
 ## 実行環境
 
