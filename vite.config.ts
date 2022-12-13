@@ -1,3 +1,4 @@
+// https://vitest.dev/config/
 /// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -19,7 +20,7 @@ const plugins = [react()]
 
 // テスト設定
 const test = {
-  environment: 'jsdom', // テスト環境を指定
+  environment: 'jsdom', // node環境でDOMをシミュレートする
   globals: true, // APIをグローバルに使う
 }
 
