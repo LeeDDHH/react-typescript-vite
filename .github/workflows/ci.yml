@@ -10,7 +10,8 @@ on:
 
 jobs:
   build:
-    name: build
+    if: ! github.event.pull_request.draft
+    name: ci build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
