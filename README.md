@@ -56,6 +56,18 @@ yarn preview
 yarn lint
 ```
 
+### テスト実行
+
+```shell
+yarn test
+```
+
+### カバレッジ表示
+
+```shell
+yarn coverage
+```
+
 ## github actions の設定
 
 - 詳細は `.github/workflows/ci.yml` に書いてある
