@@ -2,9 +2,7 @@ name: ci
 on:
   pull_request:
     types:
-      - opened
-      - reopened
-      - ready_for_review
+      - ready_for_review # draftからPRレビューに変わったとき
     branches:
       - main
       - 'feature/**'
@@ -16,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: yarn install
+      - name: yarn install # プロジェクトに必要なパッケージをダウンロードする
         run: yarn install
-      - name: lint
+      - name: lint # lintを回す
         run: yarn lint
-      - name: vitest test
+      - name: vitest test # vitestによるテスト
         run: yarn test
-      - name: next build
+      - name: next build # ビルド
         run: yarn build

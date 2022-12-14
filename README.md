@@ -55,3 +55,10 @@ yarn preview
 ```shell
 yarn lint
 ```
+
+## github actions の設定
+
+- 詳細は `.github/workflows/ci.yml` に書いてある
+- PR が `draft` から `ready for review` に変わったら ci が走るようになっている
+  - PR を出してからさらに修正を加え、さらに ci を回す場合
+    - 一度 `draft` に戻して `ready for review` に変える必要がある
