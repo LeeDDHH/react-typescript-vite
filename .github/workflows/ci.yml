@@ -22,7 +22,5 @@ jobs:
         run: yarn lint
       - name: vitest test
         run: yarn test
-      - name: vitest coverage
-        run: yarn coverage
       - name: next build
         run: yarn build
