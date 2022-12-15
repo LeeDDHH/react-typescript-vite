@@ -16,19 +16,19 @@
 
 ## 実行環境
 
-|        主要技術        | バージョン |
-| :--------------------: | :--------: |
-|        Node.js         |  18.12.0   |
-|          Yarn          |  1.22.19   |
-|          Vite          |   4.0.0    |
-|         React          |   18.2.0   |
-|       TypeScript       |   4.9.3    |
-|        Prettier        |   2.8.1    |
-|         Eslint         |   8.29.0   |
-| @testing-library/react |   13.4.0   |
-|         Vitest         |   0.25.7   |
-|  @vitest/coverage-c8   |   0.25.8   |
-|        lefthook        |   1.2.5    |
+|                                      主要技術                                      | バージョン |
+| :--------------------------------------------------------------------------------: | :--------: |
+|                                      Node.js                                       |  18.12.0   |
+|                                        Yarn                                        |  1.22.19   |
+|                       [Vite](https://github.com/vitejs/vite)                       |   4.0.0    |
+|                     [React](https://github.com/facebook/react)                     |   18.2.0   |
+|               [TypeScript](https://github.com/microsoft/TypeScript)                |   4.9.3    |
+|                  [Prettier](https://github.com/prettier/prettier)                  |   2.8.1    |
+|                     [Eslint](https://github.com/eslint/eslint)                     |   8.29.0   |
+| [@testing-library/react](https://github.com/testing-library/react-testing-library) |   13.4.0   |
+|                   [Vitest](https://github.com/vitest-dev/vitest)                   |   0.25.7   |
+|                                @vitest/coverage-c8                                 |   0.25.8   |
+|                [Lefthook](https://github.com/evilmartians/lefthook)                |   1.2.5    |
 
 ## コマンド
 
