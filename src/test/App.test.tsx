@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
 // App コンポーネント
-import App from '../App'
+import App from '../components/App/App'
 
 test('App コンポーネントのレンダー', async () => {
   // コンポーネントをレンダーして...
