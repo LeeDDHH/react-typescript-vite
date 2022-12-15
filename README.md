@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/Eslint-8.29.0-blue?logo=eslint&style=flat-square">
   <img src="https://img.shields.io/badge/Testing--Library-13.4.0-blue?logo=testinglibrary&style=flat-square">
   <img src="https://img.shields.io/badge/Vitest-0.25.8-blue?logo=vitest&style=flat-square">
+  <img src="https://img.shields.io/badge/styled--components-5.3.6-blue?logo=styledcomponents&style=flat-square">
 </p>
 
 ## 実行環境
@@ -29,6 +30,7 @@
 |                   [Vitest](https://github.com/vitest-dev/vitest)                   |   0.25.7   |
 |                                @vitest/coverage-c8                                 |   0.25.8   |
 |                [Lefthook](https://github.com/evilmartians/lefthook)                |   1.2.5    |
+|    [styled-components](https://github.com/styled-components/styled-components)     |   5.3.6    |
 
 ## コマンド
 
