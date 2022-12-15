@@ -28,6 +28,7 @@
 | @testing-library/react |   13.4.0   |
 |         Vitest         |   0.25.7   |
 |  @vitest/coverage-c8   |   0.25.8   |
+|        lefthook        |   1.2.5    |
 
 ## コマンド
 
@@ -74,3 +75,11 @@ yarn coverage
 - PR が `draft` から `ready for review` に変わったら ci が走るようになっている
   - PR を出してからさらに修正を加え、さらに ci を回す場合
     - 一度 `draft` に戻して `ready for review` に変える必要がある
+
+## lefthook の設定
+
+- Git hooks を管理するためのパッケージ
+- 詳細は `lefthook.yml` に書いてある
+- `git commit` 時に以下のコマンドを実行する
+  - `yarn coverage`
+  - `yarn lint`
