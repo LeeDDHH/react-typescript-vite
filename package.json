@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint --ext js,jsx,ts,tsx src --fix",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "sb": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build-storybook": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,6 +19,14 @@
     "web-vitals": "^3.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-vite": "^0.2.5",
+    "@storybook/react": "^6.5.14",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
@@ -27,10 +37,12 @@
     "@typescript-eslint/parser": "^5.46.1",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.25.8",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.8",
     "jsdom": "^20.0.3",
     "lefthook": "^1.2.5",
     "prettier": "^2.8.1",
