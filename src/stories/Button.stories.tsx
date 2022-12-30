@@ -1,41 +1,38 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Button } from './Button'
+import { Button } from '../components/utils/Button'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Default/Button',
   component: Button,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 } as ComponentMeta<typeof Button>
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
-export const Primary = Template.bind({})
+export const Default = Template.bind({})
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
-  primary: true,
-  label: 'Button',
+Default.args = {
+  width: 'fit-content',
+  height: 'fit-content',
+  color: '#000000',
+  bgColor: '#FFFFFF',
+  children: 'デフォルト',
 }
 
-export const Secondary = Template.bind({})
-Secondary.args = {
-  label: 'Button',
+export const SpecifiedSize = Template.bind({})
+SpecifiedSize.args = {
+  width: '120px',
+  height: '35px',
+  children: 'サイズのみ指定',
 }
 
-export const Large = Template.bind({})
-Large.args = {
-  size: 'large',
-  label: 'Button',
-}
-
-export const Small = Template.bind({})
-Small.args = {
-  size: 'small',
-  label: 'Button',
+export const SpecifiedColor = Template.bind({})
+SpecifiedColor.args = {
+  color: '#FFFFFF',
+  bgColor: '#000000',
+  children: 'カラーのみ指定',
 }
