@@ -71,6 +71,12 @@ yarn test
 yarn coverage
 ```
 
+### storybook 起動
+
+```shell
+yarn sb
+```
+
 ## github actions の設定
 
 - 詳細は `.github/workflows/ci.yml` に書いてある
