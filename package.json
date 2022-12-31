@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext js,jsx,ts,tsx src --fix",
+    "lint": "npm run lint:eslint && npm run lint:css",
+    "lint:eslint": "eslint --ext js,jsx,ts,tsx src --fix",
+    "lint:css": "stylelint ./src/**/*.{css,js,jsx,ts,tsx}",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "sb": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
@@ -27,6 +29,7 @@
     "@storybook/builder-vite": "^0.2.5",
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
+    "@stylelint/postcss-css-in-js": "^0.38.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
@@ -45,10 +48,16 @@
     "eslint-plugin-storybook": "^0.6.8",
     "jsdom": "^20.0.3",
     "lefthook": "^1.2.5",
+    "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.1",
     "styled-components": "^5.3.6",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
     "vitest": "^0.25.7"
+  },
+  "resolutions": {
+    "stylelint/postcss": "8.4.14"
   }
 }

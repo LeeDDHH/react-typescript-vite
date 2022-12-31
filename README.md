@@ -91,3 +91,21 @@ yarn sb
 - `git commit` 時に以下のコマンドを実行する
   - `yarn coverage`
   - `yarn lint`
+
+## stylelint の設定
+
+- CSS の文法に対して lint をかける
+- 使用パッケージ
+  - `stylelint`
+  - `stylelint-config-standard`
+  - `postcss-syntax`
+  - `@stylelint/postcss-css-in-js`
+- 設定ファイル
+  - `.stylelintrc`
+- 設定項目
+  - シングルクォート有効
+  - 数字のパーセンテージ設定を `0.x` という形で指定する
+  - `rbga` 、 `hsla` などを使った色指定時にコンマで色情報を区切る
+- その他設定参考
+  - [styled-components で Stylelint を使う方法 2022](https://zenn.dev/ciffelia/articles/a42434cd8c1abc)
+  - [Stylelint で CSS-in-JS を lint する時にハマったこと](https://zenn.dev/cp20/articles/2844af357345cf)
