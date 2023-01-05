@@ -5,13 +5,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-18.12.0-blue?logo=node.js&style=flat-square">
   <img src="https://img.shields.io/badge/Yarn-1.22.19-blue?logo=yarn&style=flat-square">
-  <img src="https://img.shields.io/badge/Vite-4.0.3-blue?logo=vite&style=flat-square">
+  <img src="https://img.shields.io/badge/Vite-4.0.4-blue?logo=vite&style=flat-square">
   <img src="https://img.shields.io/badge/React-18.2.0-blue?logo=react&style=flat-square">
   <img src="https://img.shields.io/badge/Typescript-4.9.3-blue?logo=typescript&style=flat-square">
   <img src="https://img.shields.io/badge/Prettier-2.8.1-blue?logo=prettier&style=flat-square">
   <img src="https://img.shields.io/badge/Eslint-8.31.0-blue?logo=eslint&style=flat-square">
   <img src="https://img.shields.io/badge/Testing--Library-13.4.0-blue?logo=testinglibrary&style=flat-square">
-  <img src="https://img.shields.io/badge/Vitest-0.26.2-blue?logo=vitest&style=flat-square">
+  <img src="https://img.shields.io/badge/Vitest-0.26.3-blue?logo=vitest&style=flat-square">
   <img src="https://img.shields.io/badge/styled--components-5.3.6-blue?logo=styledcomponents&style=flat-square">
 </p>
 
@@ -21,14 +21,14 @@
 | :--------------------------------------------------------------------------------: | :--------: |
 |                                      Node.js                                       |  18.12.0   |
 |                                        Yarn                                        |  1.22.19   |
-|                       [Vite](https://github.com/vitejs/vite)                       |   4.0.3    |
+|                       [Vite](https://github.com/vitejs/vite)                       |   4.0.4    |
 |                     [React](https://github.com/facebook/react)                     |   18.2.0   |
 |               [TypeScript](https://github.com/microsoft/TypeScript)                |   4.9.3    |
 |                  [Prettier](https://github.com/prettier/prettier)                  |   2.8.1    |
 |                     [Eslint](https://github.com/eslint/eslint)                     |   8.31.0   |
 | [@testing-library/react](https://github.com/testing-library/react-testing-library) |   13.4.0   |
-|                   [Vitest](https://github.com/vitest-dev/vitest)                   |   0.26.2   |
-|                                @vitest/coverage-c8                                 |   0.25.8   |
+|                   [Vitest](https://github.com/vitest-dev/vitest)                   |   0.26.3   |
+|                                @vitest/coverage-c8                                 |   0.26.3   |
 |                [Lefthook](https://github.com/evilmartians/lefthook)                |   1.2.6    |
 |    [styled-components](https://github.com/styled-components/styled-components)     |   5.3.6    |
 
