@@ -15,6 +15,7 @@ type Props = {
   height?: string
   color?: string
   bgColor?: string
+  label?: string
 }
 
 export const Button = (props: Props) => {
